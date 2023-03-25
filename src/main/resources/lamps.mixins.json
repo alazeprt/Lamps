@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.alazeprt.mixin",
+	"compatibilityLevel": "JAVA_16",
+	"mixins": [
+      "LightMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

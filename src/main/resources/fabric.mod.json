@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "lamps",
+	"version": "${version}",
+	"name": "Lamps",
+	"description": "A minecraft fabric mod about lights",
+	"authors": [
+		"alazeprt"
+	],
+	"contact": {
+		"homepage": "https://github.com/alazeprt/Lamps"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/lamps/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.alazeprt.LightMod"
+		]
+	},
+	"mixins": [
+		"lamps.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.9",
+		"minecraft": "~1.16.5",
+		"java": ">=8",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
